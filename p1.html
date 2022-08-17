@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>STT</th>
+            <th>Lệnh</th>
+            <th>Ý nghĩa</th>
+            <th>Design Tool</th>
+        </tr>
+        <tr>
+            <td>
+                1
+            </td>
+            <td>
+                select * from sys.sysservers
+            </td>
+            <td>
+                Show phần mềm sql đang trên server nào
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>
+                select * from sys.databases
+            </td>
+            <td>
+                show tất cả databases 
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>select DB_NAME() AS 'Databases Name'</td>
+            <td>
+                Đang thao tác với databases nào 
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>
+                use Test 
+            </td>
+            <td>
+
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>
+                select * from sys.database_files
+            </td>
+            <td>
+                DBinfo 
+                gồm data:
+                 và log:
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>
+                select * from sys.tables
+            </td>
+            <td>Tất cả các bảng trong databases</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>
+                select * from sys.objects where type ='PK'
+            </td>
+            <td>Khóa chính</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>
+                select * from sys.objects where type ='f'
+            </td>
+            <td>Khóa phụ</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>
+                select * from sys.objects where type ='p'
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>
+                create databases mytest
+                /* create table mytable() */
+                /* drop table mytable */
+                alter table mytable add mycolumn nvarchar (80)
+            </td>
+            <td>Tạo bảng</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>
+                select * from 
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>
+                select * from sys.
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
